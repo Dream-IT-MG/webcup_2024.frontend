@@ -1,0 +1,35 @@
+#card-animation {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    /* overflow: hidden !important; */
+    /* width: 200px;
+    height: 500px; */
+}
+
+#question-card {
+    height: 40rem;
+    border-radius: 20px;
+    padding: 5rem;
+}
+
+
+#question-card li {
+    list-style: none;
+    height: 5rem;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#question-card li:hover {
+    border: 3px solid grey;
+}
+
+@keyframes bang {
+    from {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}

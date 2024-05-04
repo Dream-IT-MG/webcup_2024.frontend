@@ -21,6 +21,8 @@ body {
     width: 100px;
 }
 
+
+/* to add to a unique file */
 header {
     position: absolute;
     z-index: 9999;
@@ -55,6 +57,7 @@ header ul a {
     font-size: 0.83rem;
 }
 
+/* end add unique file */
 .search a {
     font-size: 1.05rem;
     padding: 0 3rem;
