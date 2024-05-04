@@ -433,7 +433,7 @@ body {
     /* height: 50vh; */
 }
 
-#slide-2 {
+.page-content {
     background-color: white;
 }
 
@@ -459,4 +459,75 @@ body {
 
 .vertical__item:not(:last-child) {
     margin-bottom: 240px;
+}
+
+
+#horizontal {
+    padding: 100px 0;
+}
+
+.horizontal__content {
+    display: flex;
+}
+
+.horizontal__item {
+    border: 1px solid #efefef;
+    padding: 200px 150px;
+}
+
+.horizontal__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.horizontal__num {
+    font-size: 80px;
+    font-weight: 900;
+    font-stretch: condensed;
+    color: #ff98a7;
+}
+
+
+
+/* Overlaping Cards */
+
+#overlaping-cards .cards {
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#overlaping-cards .card {
+    position: absolute;
+    width: 60%;
+    height: 70vh;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+
+#overlaping-cards .card-1 {
+    left: 0;
+    top: 0;
+}
+
+#overlaping-cards .card-2 {
+    left: 35px;
+    top: 35px;
+}
+
+#overlaping-cards .card-3 {
+    left: 70px;
+    top: 70px;
+}
+
+#overlaping-cards .card-4 {
+    left: 105px;
+    top: 105px;
 }
