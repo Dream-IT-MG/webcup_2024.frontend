@@ -34,10 +34,15 @@
         crossorigin="anonymous"></script>
 
     <!-- Three JS -->
-    <script type="module">
-        import three from 'https://cdn.jsdelivr.net/npm/three@0.164.1/+esm'
-    </script>
-
+    <!-- Explicitly import Module -->
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+          }
+        }
+      </script>
 
     <!-- Custom JS -->
     <!-- Add here your custom js here -->
