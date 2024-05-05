@@ -37,7 +37,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <!-- <main>
     <div class="vignette hide"></div>
     <img src="img/background.png" data-rotation="0" data-speedx="0.3" data-speedy="0.38" data-speedz="0" alt=""
       class="parallax bg-img" data-distance="-200">
@@ -83,12 +83,17 @@
     <img src="img/fog_1.png" alt="" data-distance="4200" data-rotation="0" data-speedx="0.12" data-speedy="0.01"
       data-speedz="0" class="parallax fog-1">
     <img src="img/ground_grass.png" class="ground-plant">
-  </main>
+  </main> -->
   <div class="page-content">
     <div id="slide-2">
       <div class="vertical__content">
         <div class="col col_left">
-          <img src="img/kong.jpg" id="image_kong">
+          <div class="canvas-container">
+            <canvas id="canvas3d"></canvas>
+            <canvas id="canvas3dMusic"></canvas>
+          </div>
+
+          <!-- <img src="img/kong.jpg" id="image_kong"> -->
         </div>
 
         <div class="col col_right">
@@ -116,14 +121,7 @@
               with butter-smooth navigation, all while using the platform and keeping it accessible.
             </p>
           </div>
-          <div class="vertical__item">
-            <h3>Smooth Scroll Lenis</h3>
-            <p>
-              Lenis is an open-source library built to standardize scroll experiences and sauce up
-              websites
-              with butter-smooth navigation, all while using the platform and keeping it accessible.
-            </p>
-          </div>
+
         </div>
 
       </div>
@@ -135,18 +133,33 @@
         <div class="horizontal__content">
           <div class="horizontal__item">
             <div class="horizontal__num">1</div>
+            <p>
+              Ne pas s'approcher demoins de 100m
+            </p>
           </div>
           <div class="horizontal__item">
             <div class="horizontal__num">2</div>
+            <p>
+              Ne pas regarder dans les yeux
+            </p>
           </div>
           <div class="horizontal__item">
             <div class="horizontal__num">3</div>
+            <p>
+              Ne pas essayer de fuir, plutôt se cacher
+            </p>
           </div>
           <div class="horizontal__item">
             <div class="horizontal__num">4</div>
+            <p>
+              Ne pas porter de vêtements rouge
+            </p>
           </div>
           <div class="horizontal__item">
             <div class="horizontal__num">5</div>
+            <p>
+              Avoir un sifflet avec soi
+            </p>
           </div>
         </div>
       </div>
@@ -215,6 +228,7 @@
   <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
 
   <script src="./scroll.js"></script>
+  <script src="./script.js" type="module"></script>
 
 </body>
 

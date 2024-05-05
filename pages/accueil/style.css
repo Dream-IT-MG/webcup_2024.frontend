@@ -399,12 +399,26 @@ main {
     margin: 0;
 }
 
+.vertical__item p {
+    font-size: 1rem;
+}
+
+
+.vertical__item:not(:last-child) {
+    padding-top: 15rem;
+}
+
+.vertical__item:is(:last-child) {
+    padding-top: 10rem;
+    margin-bottom: 10rem;
+}
+
 #slide-2 h2 span {
     display: block;
 }
 
 #slide-2 h3 {
-    font-size: 20px;
+    font-size: 4rem;
     font-stretch: expanded;
     color: #ff98a7;
     line-height: 100%;
@@ -470,16 +484,19 @@ body {
 }
 
 .horizontal__content {
-    display: flex;
+    display: inline-flex;
 }
 
 .horizontal__item {
     border: 1px solid #efefef;
-    padding: 200px 150px;
+    padding: 8rem;
+    margin: 5rem;
+    width: 40rem;
+    text-align: center;
 }
 
 .horizontal__item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 5px;
 }
 
 .horizontal__num {
@@ -533,4 +550,19 @@ body {
 #overlaping-cards .card-4 {
     left: 105px;
     top: 105px;
+}
+
+.canvas-container {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+#canvas3d {
+    width: 100%;
+    height: 100%;
 }
