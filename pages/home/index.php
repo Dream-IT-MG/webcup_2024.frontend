@@ -213,6 +213,9 @@
   <script src="./scroll.js"></script>
   <script src="./script.js" type="module"></script>
 
+  <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/6a3ea07a-3923-4000-9191-62e9f4bfe1f9/webchat/v2/config.js"></script>
+
 </body>
 
 </html>
