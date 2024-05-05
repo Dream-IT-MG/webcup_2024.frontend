@@ -31,11 +31,7 @@ window.addEventListener("mousemove", (e) => {
     update(e.clientX)
 })
 
-if (window.innerWidth >= 725) {
-    document.querySelector("main").style.maxHeight = `${window.innerWidth * 0.6}px`;
-} else {
-    document.querySelector("main").style.maxHeight = `${window.innerWidth * 1.6}px`;
-}
+
 
 // gsap animation
 

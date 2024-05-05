@@ -6,10 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive 3D Parallax Website</title>
-
-  <?php include("../../components/css.php"); ?>
-
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -193,13 +191,28 @@
       </div>
     </section>
   </div>
+  <script src="js/gsap.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> -->
+  <script src="js/app.js" defer></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js",
+        "three/examples/jsm/": "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/"
+      }
+    }
+  </script>
 
-  <?php include("../../components/javascript.php"); ?>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
 
-  <script src="./parallaxAnimation.js" defer></script>
-  <script src="./scrollAnimation.js"></script>
-  <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/6a3ea07a-3923-4000-9191-62e9f4bfe1f9/webchat/v2/config.js"></script>
+
+  <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
+
+  <script src="./scroll.js"></script>
+  <script src="./script.js" type="module"></script>
+
 </body>
 
 </html>
