@@ -390,7 +390,7 @@ main {
 
 /* section 2 */
 
-#slide-2 h2 {
+h2 {
     font-size: 60px;
     font-weight: 900;
     line-height: 85%;
@@ -413,20 +413,20 @@ main {
     margin-bottom: 10rem;
 }
 
-#slide-2 h2 span {
+h2 span {
     display: block;
 }
 
-#slide-2 h3 {
+h3 {
     font-size: 4rem;
     font-stretch: expanded;
     color: #ff98a7;
     line-height: 100%;
 }
 
-#slide-2 h2,
-#slide-2 h3,
-#slide-2 h4 {
+h2,
+h3,
+h4 {
     text-transform: uppercase;
 }
 
@@ -454,7 +454,8 @@ body {
     background-color: white;
 }
 
-#slide-2 {
+#slide-2,
+#slide-4 {
     height: 200vh;
     width: 100vw;
     padding: 50px 0;
@@ -518,6 +519,11 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    z-index: 98;
+}
+
+#overlaping-cards p {
+    font-size: 1rem;
 }
 
 #overlaping-cards .card {
@@ -532,24 +538,25 @@ body {
     margin-bottom: 50px;
 }
 
+
 #overlaping-cards .card-1 {
     left: 0;
     top: 0;
 }
 
 #overlaping-cards .card-2 {
-    left: 35px;
-    top: 35px;
+    left: 9rem;
+    top: 3rem;
 }
 
 #overlaping-cards .card-3 {
-    left: 70px;
-    top: 70px;
+    left: 20rem;
+    top: 8rem;
 }
 
 #overlaping-cards .card-4 {
-    left: 105px;
-    top: 105px;
+    left: 30rem;
+    top: 13rem;
 }
 
 .canvas-container {
