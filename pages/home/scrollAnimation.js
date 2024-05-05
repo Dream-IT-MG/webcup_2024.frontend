@@ -40,7 +40,7 @@ gsap.to(box_items, {
         trigger: section_2,
         pin: true,
         scrub: 3,
-        snap: 1 / (box_items.length -1),
+        snap: 1 / (box_items.length - 1),
         end: "+=" + section_2.offsetWidth
     }
 });
@@ -48,7 +48,7 @@ gsap.to(box_items, {
 
 let overlapTimeline = gsap.timeline({
     scrollTrigger: {
-        trigger:".cards",
+        trigger: ".cards",
         pin: true,
         pinSpacing: true,
         start: "left-=120px left",

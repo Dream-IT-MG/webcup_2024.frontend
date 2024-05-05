@@ -17,6 +17,97 @@ body {
     background-color: #0b372dbb;
 }
 
+.logo {
+    width: 100px;
+}
+
+
+/* to add to a unique file */
+header {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    padding: 0.9rem 0;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+
+/* end add unique file */
+.search a {
+    font-size: 1.05rem;
+    padding: 0 3rem;
+}
+
+.hamburger {
+    padding-left: 1.5rem;
+}
+
+.hamburger a {
+    padding: 0;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(115, 115, 115, 0.7);
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger .bar {
+    position: relative;
+    width: 52%;
+    height: 1.3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.hamburger .bar::before,
+.hamburger .bar::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 2px;
+}
+
+.hamburger .bar::before {
+    top: -4.5px;
+}
+
+.hamburger .bar::after {
+    top: 4.5px;
+}
+
 main {
     position: relative;
     /* background-color: #353; */
@@ -284,12 +375,6 @@ main {
         height: 30px;
         width: 30px;
     }
-
-    .bg-img {
-        width: initial;
-        height: 311.104%;
-
-    }
 }
 
 @media (max-width : 520px) {
@@ -305,7 +390,7 @@ main {
 
 /* section 2 */
 
-#slide-2 h2 {
+h2 {
     font-size: 60px;
     font-weight: 900;
     line-height: 85%;
@@ -314,20 +399,34 @@ main {
     margin: 0;
 }
 
-#slide-2 h2 span {
+.vertical__item p {
+    font-size: 1rem;
+}
+
+
+.vertical__item:not(:last-child) {
+    padding-top: 15rem;
+}
+
+.vertical__item:is(:last-child) {
+    padding-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+h2 span {
     display: block;
 }
 
-#slide-2 h3 {
-    font-size: 20px;
+h3 {
+    font-size: 4rem;
     font-stretch: expanded;
     color: #ff98a7;
     line-height: 100%;
 }
 
-#slide-2 h2,
-#slide-2 h3,
-#slide-2 h4 {
+h2,
+h3,
+h4 {
     text-transform: uppercase;
 }
 
@@ -355,7 +454,8 @@ body {
     background-color: white;
 }
 
-#slide-2 {
+#slide-2,
+#slide-4 {
     height: 200vh;
     width: 100vw;
     padding: 50px 0;
@@ -385,16 +485,19 @@ body {
 }
 
 .horizontal__content {
-    display: flex;
+    display: inline-flex;
 }
 
 .horizontal__item {
     border: 1px solid #efefef;
-    padding: 200px 150px;
+    padding: 8rem;
+    margin: 5rem;
+    width: 40rem;
+    text-align: center;
 }
 
 .horizontal__item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 5px;
 }
 
 .horizontal__num {
@@ -416,6 +519,11 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    z-index: 98;
+}
+
+#overlaping-cards p {
+    font-size: 1rem;
 }
 
 #overlaping-cards .card {
@@ -430,22 +538,38 @@ body {
     margin-bottom: 50px;
 }
 
+
 #overlaping-cards .card-1 {
     left: 0;
     top: 0;
 }
 
 #overlaping-cards .card-2 {
-    left: 35px;
-    top: 35px;
+    left: 9rem;
+    top: 3rem;
 }
 
 #overlaping-cards .card-3 {
-    left: 70px;
-    top: 70px;
+    left: 20rem;
+    top: 8rem;
 }
 
 #overlaping-cards .card-4 {
-    left: 105px;
-    top: 105px;
+    left: 30rem;
+    top: 13rem;
+}
+
+.canvas-container {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+#canvas3d {
+    width: 100%;
+    height: 100%;
 }

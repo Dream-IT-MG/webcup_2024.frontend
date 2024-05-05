@@ -48,7 +48,11 @@
     <div id="slide-2">
       <div class="vertical__content">
         <div class="col col_left">
-          <img src="img/kong.jpg" id="image_kong">
+          <div class="canvas-container">
+            <canvas id="canvas3d"></canvas>
+          </div>
+
+          <!-- <img src="img/kong.jpg" id="image_kong"> -->
         </div>
 
         <div class="col col_right">
@@ -76,14 +80,7 @@
               with butter-smooth navigation, all while using the platform and keeping it accessible.
             </p>
           </div>
-          <div class="vertical__item">
-            <h3>Smooth Scroll Lenis</h3>
-            <p>
-              Lenis is an open-source library built to standardize scroll experiences and sauce up
-              websites
-              with butter-smooth navigation, all while using the platform and keeping it accessible.
-            </p>
-          </div>
+
         </div>
 
       </div>
@@ -95,62 +92,103 @@
         <div class="horizontal__content">
           <div class="horizontal__item">
             <div class="horizontal__num">1</div>
+            <p>
+              Ne pas s'approcher demoins de 100m
+            </p>
           </div>
           <div class="horizontal__item">
             <div class="horizontal__num">2</div>
+            <p>
+              Ne pas regarder dans les yeux
+            </p>
           </div>
           <div class="horizontal__item">
             <div class="horizontal__num">3</div>
+            <p>
+              Ne pas essayer de fuir, plutôt se cacher
+            </p>
           </div>
           <div class="horizontal__item">
             <div class="horizontal__num">4</div>
+            <p>
+              Ne pas porter de vêtements rouge
+            </p>
           </div>
           <div class="horizontal__item">
             <div class="horizontal__num">5</div>
+            <p>
+              Avoir un sifflet avec soi
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="normal">
-      <div>
-        <h3>Smooth Scroll Lenis</h3>
-        <p>
-          Lenis is an open-source library built to standardize scroll experiences and sauce up
-          websites
-          with butter-smooth navigation, all while using the platform and keeping it accessible.
-        </p>
+    <div id="slide-4">
+      <div class="vertical__content">
+        <div class="col col_left">
+          <div class="canvas-container">
+            <canvas id="canvasGodzilla"></canvas>
+            <canvas id="canvas3dMusic"></canvas>
+          </div>
+        </div>
+
+        <div class="col col_right">
+          <div class="vertical__item">
+            <h3>Smooth Scroll Lenis</h3>
+            <p>
+              Lenis is an open-source library built to standardize scroll experiences and sauce up
+              websites
+              with butter-smooth navigation, all while using the platform and keeping it accessible.
+            </p>
+          </div>
+          <div class="vertical__item">
+            <h3>Smooth Scroll Lenis</h3>
+            <p>
+              Lenis is an open-source library built to standardize scroll experiences and sauce up
+              websites
+              with butter-smooth navigation, all while using the platform and keeping it accessible.
+            </p>
+          </div>
+          <div class="vertical__item">
+            <h3>Smooth Scroll Lenis</h3>
+            <p>
+              Lenis is an open-source library built to standardize scroll experiences and sauce up
+              websites
+              with butter-smooth navigation, all while using the platform and keeping it accessible.
+            </p>
+          </div>
+
+        </div>
+
       </div>
-      <div>
-        <h3>Smooth Scroll Lenis</h3>
-        <p>
-          Lenis is an open-source library built to standardize scroll experiences and sauce up
-          websites
-          with butter-smooth navigation, all while using the platform and keeping it accessible.
-        </p>
-      </div>
-      <div>
-        <h3>Smooth Scroll Lenis</h3>
-        <p>
-          Lenis is an open-source library built to standardize scroll experiences and sauce up
-          websites
-          with butter-smooth navigation, all while using the platform and keeping it accessible.
-        </p>
-      </div>
-    </section>
+
+    </div>
     <section id="overlaping-cards">
       <div class="cards">
         <div class="card card-1">
           <h2>01</h2>
+          <p>
+            Courir Vite
+          </p>
         </div>
         <div class="card card-2">
           <h2>02</h2>
+          <p>
+            Nager Vite
+          </p>
         </div>
         <div class="card card-3">
           <h2>03</h2>
+          <p>
+            Ne pas faire de bruit
+          </p>
         </div>
         <div class="card card-4">
           <h2>04</h2>
+          <p>
+            Ne pas nager dans les eaux profondes
+          </p>
         </div>
       </div>
     </section>
