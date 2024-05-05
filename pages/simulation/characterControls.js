@@ -31,6 +31,7 @@ export class CharacterControls {
         this.animationsMap = animationsMap
         this.currentAction = currentAction
         this.animationsMap.forEach((value, key) => {
+            console.log(key, value)
             if (key == currentAction) {
                 value.play()
             }
@@ -54,6 +55,10 @@ export class CharacterControls {
             play = "walk"
         } else {
             play = "idle"
+            if (!["run", "walk", "idle"].includes(this.currentAction)) {
+                play = this.currentAction;
+            }
+            
         }
 
         if (this.currentAction != play) {

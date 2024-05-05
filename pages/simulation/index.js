@@ -40,12 +40,33 @@ lightKingKong()
 // FLOOR
 generateFloor()
 
+new GLTFLoader().load('models/godzilla2.glb', function (gltf) {
+    const model = gltf.scene;
+    console.log(model);
+    model.scale.set(0.7, 0.7, 0.7)
+    model.position.set(5,0,0)
+    model.traverse(function (object) {
+        if (object.isMesh) object.castShadow = true;
+    });
+    const pointLight = new THREE.PointLight(0xffffff);
+    pointLight.position.set(5, 5, 5);
+    scene.add(model);
+
+    const gltfAnimations = gltf.animations;
+    const mixer = new THREE.AnimationMixer(model);
+    const animationsMap = new Map()
+    gltfAnimations.filter(a => a.name != 'TPose').forEach((a) => {
+        animationsMap.set(a.name, mixer.clipAction(a))
+    })
+    characterControls = new CharacterControls(model, mixer, animationsMap, orbitControls, camera, 'Animation Scene')
+});
+
 // MODEL WITH ANIMATIONS
 var characterControls
 new GLTFLoader().load('models/kingkong.glb', function (gltf) {
     const model = gltf.scene;
     console.log(model);
-    model.scale.set(0.001, 0.001, 0.001)
+    model.scale.set(0.0015, 0.0015, 0.0015)
     model.traverse(function (object) {
         if (object.isMesh) object.castShadow = true;
     });
@@ -62,6 +83,56 @@ new GLTFLoader().load('models/kingkong.glb', function (gltf) {
 
     characterControls = new CharacterControls(model, mixer, animationsMap, orbitControls, camera, 'idle')
 });
+
+
+new GLTFLoader().load('models/soldier.glb', function (gltf) {
+    const model = gltf.scene;
+    console.log(model);
+    model.scale.set(1, 1, 1)
+    model.position.set(-10,0,0)
+
+    model.traverse(function (object) {
+        if (object.isMesh) object.castShadow = true;
+    });
+    const pointLight = new THREE.PointLight(0xffffff);
+    pointLight.position.set(5, 5, 5);
+    scene.add(model);
+
+    const gltfAnimations = gltf.animations;
+    const mixer = new THREE.AnimationMixer(model);
+    const animationsMap = new Map()
+    gltfAnimations.filter(a => a.name != 'TPose').forEach((a) => {
+        animationsMap.set(a.name, mixer.clipAction(a))
+    })
+
+    characterControls = new CharacterControls(model, mixer, animationsMap, orbitControls, camera, 'Idle')
+});
+
+
+new GLTFLoader().load('models/soldier.glb', function (gltf) {
+    const model = gltf.scene;
+    console.log(model);
+    model.scale.set(1, 1, 1)
+    model.position.set(10,0,0)
+    model.traverse(function (object) {
+        if (object.isMesh) object.castShadow = true;
+    });
+    const pointLight = new THREE.PointLight(0xffffff);
+    pointLight.position.set(5, 5, 5);
+    scene.add(model);
+
+    const gltfAnimations = gltf.animations;
+    const mixer = new THREE.AnimationMixer(model);
+    const animationsMap = new Map()
+    gltfAnimations.filter(a => a.name != 'TPose').forEach((a) => {
+        animationsMap.set(a.name, mixer.clipAction(a))
+    })
+
+    characterControls = new CharacterControls(model, mixer, animationsMap, orbitControls, camera, 'Idle')
+});
+
+
+
 
 // CONTROL KEYS
 const keysPressed = {}
@@ -107,7 +178,7 @@ function generateFloor() {
     // TEXTURES
     const textureLoader = new THREE.TextureLoader();
     const placeholder = textureLoader.load("./textures/placeholder/placeholder.png");
-    const sandBaseColor = textureLoader.load("./textures/sand/Sand 002_COLOR.jpg");
+    const sandBaseColor = textureLoader.load("./textures/sand/grass.png");
     const sandNormalMap = textureLoader.load("./textures/sand/Sand 002_NRM.jpg");
     const sandHeightMap = textureLoader.load("./textures/sand/Sand 002_DISP.jpg");
     const sandAmbientOcclusion = textureLoader.load("./textures/sand/Sand 002_OCC.jpg");
@@ -144,6 +215,7 @@ function light() {
 
     const dirLight = new THREE.DirectionalLight(0xffffff, 1)
     dirLight.position.set(- 60, 100, - 10);
+    dirLight.intensity = 20;
     dirLight.castShadow = true;
     dirLight.shadow.camera.top = 50;
     dirLight.shadow.camera.bottom = - 50;
