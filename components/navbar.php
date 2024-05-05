@@ -14,6 +14,7 @@
         left: 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         background-color: rgba(0, 0, 0, 0.1);
+        font-family: "Poppins" sans-serif;
     }
 
     #page-header nav {
@@ -58,7 +59,7 @@
         border-radius: 50%;
         background-color: rgba(115, 115, 115, 0.7);
         backdrop-filter: blur(10px);
-        --webkit-backdrop-filter: blur(10px);
+        --webkit-backdrop-filter: blur(12px);
         justify-content: center;
         align-items: center;
     }
@@ -97,11 +98,23 @@
         <div></div>
         <!-- <img src="img/logo.png" alt="Travelo" class="logo"> -->
         <ul>
-            <li>
-                <a href="#">Login</a>
+            <li class="tw-backdrop-blur-md tw-p-4 tw-rounded-md tw-mx-2">
+                <a href="/">Home</a>
             </li>
-            <li>
-                <a href="#">Sign up</a>
+            <li class="tw-backdrop-blur-md tw-p-4 tw-rounded-md tw-mx-2">
+                <a href="/pages/map">Map</a>
+            </li>
+            <li class="tw-backdrop-blur-md tw-p-4 tw-rounded-md tw-mx-2">
+                <a href="/pages/news">News</a>
+            </li>
+            <li class="tw-backdrop-blur-md tw-p-4 tw-rounded-md tw-mx-2">
+                <a href="/pages/simulation">Simulation</a>
+            </li>
+            <li class="tw-backdrop-blur-md tw-p-4 tw-rounded-md tw-mx-2">
+                <a href="/pages/simulation_question">Guide Survie</a>
+            </li>
+            <li class="tw-backdrop-blur-md tw-p-4 tw-rounded-md tw-mx-2">
+                <a href="/pages/hearth">Centre d'aide</a>
             </li>
             <li class="search">
                 <a href="#">
