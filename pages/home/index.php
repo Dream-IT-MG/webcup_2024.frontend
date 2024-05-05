@@ -50,7 +50,6 @@
         <div class="col col_left">
           <div class="canvas-container">
             <canvas id="canvas3d"></canvas>
-            <canvas id="canvas3dMusic"></canvas>
           </div>
 
           <!-- <img src="img/kong.jpg" id="image_kong"> -->
