@@ -11,6 +11,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
+    <?php include("../../components/css.php"); ?>
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/ticker-style.css">
@@ -23,46 +25,6 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        header {
-            /* position: fixed; */
-            z-index: 9999;
-            width: 100%;
-            padding: 0.9rem 0;
-            top: 0;
-            left: 0;
-            /* border-bottom: 1px solid rgba(0, 0, 0, 0.6); */
-            background-color: rgba(0, 0, 0, 0.1);
-        }
-
-        header nav {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header ul {
-            display: flex;
-            list-style: none;
-            align-items: center;
-        }
-
-        header ul a {
-            text-decoration: none;
-            color: black;
-            padding: 0 1.5rem;
-            text-transform: uppercase;
-            font-weight: 300;
-            font-size: 0.83rem;
-        }
-
-        .logo {
-            width: 100px;
-        }
-    </style>
 </head>
 
 <body>
@@ -79,31 +41,10 @@
         </div>
     </div> -->
     <!-- Preloader Start -->
-    <header class="hide">
-        <nav>
-            <img src="../accueil/img/logo.png" alt="Travelo" class="logo">
-            <ul>
-                <li>
-                    <a href="#">Login</a>
-                </li>
-                <li>
-                    <a href="#">Sign up</a>
-                </li>
-                <li class="search">
-                    <a href="#">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </a>
-                </li>
-                <li class="hamburger">
-                    <a href="#">
-                        <div class="bar"></div>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
+    <?php include("../../components/navbar.php") ?>
+
+    <main style="margin-top: 5em;">
         <!-- Trending Area Start -->
         <div class="trending-area fix">
             <div class="container">
@@ -307,36 +248,21 @@
                     <div class="col-12">
                         <div class="video-items-active">
                             <div class="video-items text-center">
-                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="video-items text-center">
-                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="video-items text-center">
-                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
                             <div class="video-items text-center">
-                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
                             <div class="video-items text-center">
-                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -360,46 +286,31 @@
                         <div class="col-lg-6">
                             <div class="testmonial-nav text-center">
                                 <div class="single-video">
-                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
                                         <h4>Welcotme To The Best Model Winner Contest</h4>
                                     </div>
                                 </div>
                                 <div class="single-video">
-                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
                                         <h4>Welcotme To The Best Model Winner Contest</h4>
                                     </div>
                                 </div>
                                 <div class="single-video">
-                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
                                         <h4>Welcotme To The Best Model Winner Contest</h4>
                                     </div>
                                 </div>
                                 <div class="single-video">
-                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
                                         <h4>Welcotme To The Best Model Winner Contest</h4>
                                     </div>
                                 </div>
                                 <div class="single-video">
-                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
                                         <h4>Welcotme To The Best Model Winner Contest</h4>
                                     </div>

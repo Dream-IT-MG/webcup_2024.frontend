@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>💖 Hearth</title>
+    <?php include("../../components/css.php"); ?>
     <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
@@ -14,22 +16,21 @@
         <canvas id="canvas3dMusic"></canvas>
     </div>
 
+    <?php include("../../components/navbar.php") ?>
+
     <div class="section" style="display: flex;">
-        <div
-            style="margin: 1rem; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; width: 100%;">
+        <div style="margin: 1rem; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; width: 100%;">
             <h2>Tu ne te sens pas bien ?</h2>
         </div>
     </div>
     <div id="part1" class="section" style="display: flex;">
         <div style="flex-basis: 50%;"></div>
-        <div
-            style="margin: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; flex-basis: 50%;">
+        <div style="margin: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; flex-basis: 50%;">
             <h2>Cette guerre interminable te tourmente l'esprit ?</h2>
         </div>
     </div>
     <div id="part2" class="section" style="display: flex;">
-        <div
-            style="margin: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; flex-basis: 50%;">
+        <div style="margin: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; flex-basis: 50%;">
             <h2> Tu te sens pas bien ?</h2>
             <h2> Mange de la bonne glace ou écoute de la musique !</h2>
         </div>
@@ -38,8 +39,7 @@
 
     <div id="part3" class="section" style="display: flex;">
         <div style="flex-basis: 50%;"></div>
-        <div
-            style="margin: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; flex-basis: 50%;">
+        <div style="margin: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; flex-basis: 50%;">
             <h2>et si tu veux te confier à quelqu'un</h2>
         </div>
     </div>
@@ -48,8 +48,7 @@
         <div style="flex-basis: 50%;">
             <h2>Je suis là pour parler !</h2>
         </div>
-        <div
-            style="flex-basis: 50%; width: 75%; background: #ffdb30; border-radius: 2em; margin: 1em; overflow: hidden;">
+        <div style="flex-basis: 50%; width: 75%; background: #ffdb30; border-radius: 2em; margin: 1em; overflow: hidden;">
 
         </div>
     </div>
@@ -63,9 +62,7 @@
     <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
     <script type="module" src="./main.js"></script>
 
