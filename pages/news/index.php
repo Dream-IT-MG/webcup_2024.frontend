@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>News HTML-5 Template </title>
+    <title>News Gouvernement</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -73,11 +73,10 @@
                             <!-- Trending Top -->
                             <div class="trending-top mb-30">
                                 <div class="trend-top-img">
-                                    <img src="assets/img/trending/trending_top.jpg" alt="">
+                                    <img src="1.jpg" alt="">
                                     <div class="trend-top-cap">
-                                        <span>Appetizers</span>
-                                        <h2><a href="details.html">Welcome To The Best Model Winner<br> Contest At Look
-                                                of the year</a></h2>
+                                        <span>ALERTE URGENTE</span>
+                                        <h2><a href="details.html">King Kong repéré dans la région métropolitaine. Le gouvernement conseille à tous les citoyens de rester chez eux et d'éviter tout déplacement non essentiel. Les autorités sont mobilisées ...</h2>
                                     </div>
                                 </div>
                             </div>
@@ -87,25 +86,23 @@
                                     <div class="col-lg-4">
                                         <div class="single-bottom mb-35">
                                             <div class="trend-bottom-img mb-30">
-                                                <img src="assets/img/trending/trending_bottom1.jpg" alt="">
+                                                <img src="2.jpg" alt="">
                                             </div>
                                             <div class="trend-bottom-cap">
-                                                <span class="color1">Lifestyple</span>
-                                                <h4><a href="details.html">Get the Illusion of Fuller Lashes by
-                                                        “Mascng.”</a></h4>
+                                                <span class="color1">AVIS AUX RÉSIDENTS</span>
+                                                <h4><a href="details.html">GGodzilla détecté au large des côtes. Les navires sont priés de rester à distance sécuritaire et les habitants des zones côtières sont invités à se préparer à une possible évacuation. Des équipes de...</a></h4>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="single-bottom mb-35">
                                             <div class="trend-bottom-img mb-30">
-                                                <img src="assets/img/trending/trending_bottom2.jpg" alt="">
+                                                <img src="3.jpg" alt="">
                                             </div>
                                             <div class="trend-bottom-cap">
-                                                <span class="color2">Sports</span>
+                                                <span class="color2">COMMUNIQUÉ OFFICIEL</span>
                                                 <h4>
-                                                    <h4><a href="details.html">Get the Illusion of Fuller Lashes by
-                                                            “Mascng.”</a></h4>
+                                                    <h4><a href="details.html">Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong. Des mesures d'évacuation sont en cours dans les zones où la...</a></h4>
                                                 </h4>
                                             </div>
                                         </div>
@@ -116,8 +113,8 @@
                                                 <img src="assets/img/trending/trending_bottom3.jpg" alt="">
                                             </div>
                                             <div class="trend-bottom-cap">
-                                                <span class="color3">Travels</span>
-                                                <h4><a href="details.html"> Welcome To The Best Model Winner Contest</a>
+                                                <span class="color3">MESSAGE D'ALERTE</span>
+                                                <h4><a href="details.html"> Godzilla menace la sécurité de notre nation. Les autorités compétentes sont mobilisées pour contenir la situation et protéger la population. Des centres d'accueil d'urgence...</a>
                                                 </h4>
                                             </div>
                                         </div>
@@ -132,8 +129,8 @@
                                     <img src="assets/img/trending/right1.jpg" alt="">
                                 </div>
                                 <div class="trand-right-cap">
-                                    <span class="color1">Concert</span>
-                                    <h4><a href="details.html">Welcome To The Best Model Winner Contest</a></h4>
+                                    <span class="color1">AVIS IMPORTANT</span>
+                                    <h4><a href="details.html">En raison de l'attaque de King Kong, des mesures de confinement sont en vigueur dans les zones affectées. Il est vital de rester à l'intérieur et d'éviter tout contact avec la créature. Les équipes de </a></h4>
                                 </div>
                             </div>
                             <div class="trand-right-single d-flex">
@@ -141,8 +138,8 @@
                                     <img src="assets/img/trending/right2.jpg" alt="">
                                 </div>
                                 <div class="trand-right-cap">
-                                    <span class="color3">sea beach</span>
-                                    <h4><a href="details.html">Welcome To The Best Model Winner Contest</a></h4>
+                                    <span class="color3">COMMUNIQUÉ OFFICIEL</span>
+                                    <h4><a href="details.html">Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong.</a></h4>
                                 </div>
                             </div>
                             <div class="trand-right-single d-flex">
@@ -150,8 +147,8 @@
                                     <img src="assets/img/trending/right3.jpg" alt="">
                                 </div>
                                 <div class="trand-right-cap">
-                                    <span class="color2">Bike Show</span>
-                                    <h4><a href="details.html">Welcome To The Best Model Winner Contest</a></h4>
+                                    <span class="color2">ALERTE URGENTE</span>
+                                    <h4><a href="details.html">King Kong repéré dans la région métropolitaine. Le gouvernement conseille à tous les citoyens de rester chez eux et d'éviter tout déplacement non essentiel. Les autorités sont mobilisées</a></h4>
                                 </div>
                             </div>
                             <div class="trand-right-single d-flex">
@@ -159,8 +156,8 @@
                                     <img src="assets/img/trending/right4.jpg" alt="">
                                 </div>
                                 <div class="trand-right-cap">
-                                    <span class="color4">See beach</span>
-                                    <h4><a href="details.html">Welcome To The Best Model Winner Contest</a></h4>
+                                    <span class="color4">AVIS IMPORTANT</span>
+                                    <h4><a href="details.html">Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong. Des mesures d'évacuation sont en cours dans les zones....</a></h4>
                                 </div>
                             </div>
                             <div class="trand-right-single d-flex">
@@ -168,8 +165,8 @@
                                     <img src="assets/img/trending/right5.jpg" alt="">
                                 </div>
                                 <div class="trand-right-cap">
-                                    <span class="color1">Skeping</span>
-                                    <h4><a href="details.html">Welcome To The Best Model Winner Contest</a></h4>
+                                    <span class="color1">MESSAGE D'ALERTE</span>
+                                    <h4><a href="details.html">Godzilla détecté au large des côtes. </a></h4>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +196,7 @@
                                     </div>
                                     <div class="weekly-caption">
                                         <span class="color1">Strike</span>
-                                        <h4><a href="#">Welcome To The Best Model Winner Contest</a></h4>
+                                        <h4><a href="#">Godzilla détecté au large des côtes.</a></h4>
                                     </div>
                                 </div>
                                 <div class="weekly-single active">
@@ -208,7 +205,7 @@
                                     </div>
                                     <div class="weekly-caption">
                                         <span class="color1">Strike</span>
-                                        <h4><a href="#">Welcome To The Best Model Winner Contest</a></h4>
+                                        <h4><a href="#">Godzilla détecté au large des côtes.</a></h4>
                                     </div>
                                 </div>
                                 <div class="weekly-single">
@@ -217,7 +214,7 @@
                                     </div>
                                     <div class="weekly-caption">
                                         <span class="color1">Strike</span>
-                                        <h4><a href="#">Welcome To The Best Model Winner Contest</a></h4>
+                                        <h4><a href="#">Godzilla détecté au large des côtes.</a></h4>
                                     </div>
                                 </div>
                                 <div class="weekly-single">
@@ -226,7 +223,7 @@
                                     </div>
                                     <div class="weekly-caption">
                                         <span class="color1">Strike</span>
-                                        <h4><a href="#">Welcome To The Best Model Winner Contest</a></h4>
+                                        <h4><a href="#">Godzilla détecté au large des côtes.</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -275,7 +272,7 @@
                                     <span class="color1">Politics</span>
                                 </div>
                                 <div class="bottom-caption">
-                                    <h2>Welcome To The Best Model Winner Contest At Look of the year</h2>
+                                    <h2>Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong.At Look of the year</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod ipsum
                                         dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
                                         eiusmod ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -288,31 +285,31 @@
                                 <div class="single-video">
                                     <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
-                                        <h4>Welcotme To The Best Model Winner Contest</h4>
+                                        <h4>Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong.</h4>
                                     </div>
                                 </div>
                                 <div class="single-video">
                                     <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
-                                        <h4>Welcotme To The Best Model Winner Contest</h4>
+                                        <h4>Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong.</h4>
                                     </div>
                                 </div>
                                 <div class="single-video">
                                     <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
-                                        <h4>Welcotme To The Best Model Winner Contest</h4>
+                                        <h4>Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong.</h4>
                                     </div>
                                 </div>
                                 <div class="single-video">
                                     <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
-                                        <h4>Welcotme To The Best Model Winner Contest</h4>
+                                        <h4>Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong.</h4>
                                     </div>
                                 </div>
                                 <div class="single-video">
                                     <iframe src="https://www.youtube.com/watch?v=r9MKPHR604c&ab_channel=Swrve" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="video-intro">
-                                        <h4>Welcotme To The Best Model Winner Contest</h4>
+                                        <h4>Le gouvernement annonce une situation d'urgence suite à l'attaque de King Kong.</h4>
                                     </div>
                                 </div>
                             </div>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive 3D Parallax Website</title>
+  <title>Guide Gouvernemental</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -55,27 +55,22 @@
 
         <div class="col col_right">
           <div class="vertical__item">
-            <h3>Smooth Scroll Lenis</h3>
+            <h3>King Kong</h3>
             <p>
-              Lenis is an open-source library built to standardize scroll experiences and sauce up
-              websites
-              with butter-smooth navigation, all while using the platform and keeping it accessible.
+              KingKong, le singe géant pourrais ressurgir et attaquer la ville à tout moment. Voyons les faits à propos de lui pour se préparer.
             </p>
           </div>
           <div class="vertical__item">
-            <h3>Smooth Scroll Lenis</h3>
+            <h3>Symbole de la nature contre l'homme</h3>
             <p>
-              Lenis is an open-source library built to standardize scroll experiences and sauce up
-              websites
-              with butter-smooth navigation, all while using the platform and keeping it accessible.
+              King Kong est souvent interprété comme une métaphore de la nature sauvage confrontée à la civilisation humaine, une thématique explorée à travers ses multiples adaptations et interprétations.
+
             </p>
           </div>
           <div class="vertical__item">
-            <h3>Smooth Scroll Lenis</h3>
+            <h3>Taille impressionnante:</h3>
             <p>
-              Lenis is an open-source library built to standardize scroll experiences and sauce up
-              websites
-              with butter-smooth navigation, all while using the platform and keeping it accessible.
+              Selon les différentes versions, King Kong mesure généralement entre 7 et 15 mètres de hauteur, ce qui en fait une créature imposante et terrifiante pour les humains qui croisent son chemin.
             </p>
           </div>
 
@@ -133,27 +128,22 @@
 
         <div class="col col_right">
           <div class="vertical__item">
-            <h3>Smooth Scroll Lenis</h3>
+            <h3>Godzilla : le monstre nucléaires</h3>
             <p>
-              Lenis is an open-source library built to standardize scroll experiences and sauce up
-              websites
-              with butter-smooth navigation, all while using the platform and keeping it accessible.
+              Les conséquences dévastatrices des essais nucléaires et de la technologie sur l'environnement.
             </p>
           </div>
           <div class="vertical__item">
-            <h3>Smooth Scroll Lenis</h3>
+            <h3>Taille colossale:</h3>
             <p>
-              Lenis is an open-source library built to standardize scroll experiences and sauce up
-              websites
-              with butter-smooth navigation, all while using the platform and keeping it accessible.
+              Godzilla est généralement représenté comme une créature gigantesque, mesurant souvent plus de 100 mètres de hauteur, ce qui en fait l'un des monstres les plus imposants de l'histoire du cinéma.
+
             </p>
           </div>
           <div class="vertical__item">
-            <h3>Smooth Scroll Lenis</h3>
+            <h3>Combattant de monstres: </h3>
             <p>
-              Lenis is an open-source library built to standardize scroll experiences and sauce up
-              websites
-              with butter-smooth navigation, all while using the platform and keeping it accessible.
+              Godzilla est célèbre pour ses combats épiques contre d'autres monstres, notamment Mothra, King Ghidorah et Mechagodzilla, dans une série de films connus sous le nom de "Kaiju eiga" au Japon.
             </p>
           </div>
 
@@ -212,9 +202,6 @@
 
   <script src="./scroll.js"></script>
   <script src="./script.js" type="module"></script>
-
-  <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/6a3ea07a-3923-4000-9191-62e9f4bfe1f9/webchat/v2/config.js"></script>
 
 </body>
 

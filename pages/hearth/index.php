@@ -31,7 +31,7 @@
     <div id="part2" class="section" style="display: flex;">
         <div style="margin: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; flex-basis: 50%;">
             <h2 class="tw-text-6xl"> Tu te sens pas bien ?</h2>
-            <h2 class="tw-text-6xl"> Mange de la bonne glace ou écoute de la musique !</h2>
+            <h2 class="tw-text-6xl"> C'est normal, on est tous pareil</h2>
         </div>
         <div style="flex-basis: 50%;"></div>
     </div>
