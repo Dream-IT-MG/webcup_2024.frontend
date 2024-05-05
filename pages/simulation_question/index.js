@@ -7,7 +7,6 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 // SCENE
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x0000ff);
 
 // CAMERA
 const camera = new THREE.PerspectiveCamera(70, (window.innerWidth / 2) / (window.innerHeight * 2), 1, 100);
@@ -25,6 +24,7 @@ renderer.physicalIyCorrectLights = true;
 renderer.setSize(1000, window.innerHeight * 2);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.shadowMap.enabled = true
+renderer.setClearColor( 0x000000, 0 )
 
 
 // CONTROLS
